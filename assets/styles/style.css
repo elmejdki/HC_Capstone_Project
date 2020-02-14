@@ -47,11 +47,33 @@ ul li a {
   font-size: 12px;
 }
 
-/* I have used this media query because the max-width doesn't work in the form */
-@media screen and (max-width: 600px) {
+.application-steps .steps {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.application-steps .step {
+  display: flex;
+  max-width: 350px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.application-steps .step .logo img {
+  width: 50px;
+}
+
+@media screen and (max-width: 768px) {
   .hero-form {
     width: auto;
     padding: 20px 20px;
+  }
+
+  .application-steps .steps {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
   }
 }
 
