@@ -2,8 +2,20 @@
   background-color: #d35649;
 }
 
+.text-main {
+  color: #d35649;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.logo {
+  font-size: 30px;
+}
+
 .special-font {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .home-logo {
@@ -14,4 +26,43 @@
   background-size: cover;
   width: 30px;
   height: 30px;
+}
+
+.hero {
+  background-image: url("../images/hero-bg.jpg");
+  height: 80vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-form {
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.726);
+  padding: 30px 40px;
+}
+
+ul li a {
+  font-size: 12px;
+}
+
+/* I have used this media query because the max-width doesn't work in the form */
+@media screen and (max-width: 600px) {
+  .hero-form {
+    width: auto;
+    padding: 20px 20px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .hero-form input {
+    height: 35px;
+    padding: 10px;
+  }
+
+  .hero-form .btn {
+    margin-top: 10px;
+    width: 100%;
+  }
 }
