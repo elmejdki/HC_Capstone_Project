@@ -1,0 +1,24 @@
+{
+  "name": "z_HC_Capstone_Project",
+  "version": "1.0.0",
+  "description": "> One paragraph statement about the project.",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elmejdki/HC_Capstone_Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elmejdki/HC_Capstone_Project/issues"
+  },
+  "homepage": "https://github.com/elmejdki/HC_Capstone_Project#readme",
+  "devDependencies": {
+    "stylelint": "^13.2.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
