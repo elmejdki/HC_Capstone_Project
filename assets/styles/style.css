@@ -6,6 +6,10 @@
   color: #d35649;
 }
 
+.max-3k {
+  max-width: 1300px;
+}
+
 body {
   font-family: 'Quicksand', sans-serif;
 }
@@ -65,7 +69,37 @@ ul li a {
   width: 50px;
 }
 
-@media screen and (max-width: 768px) {
+.bg-second {
+  background-color: #e17e66;
+}
+
+.bg-third {
+  background-color: #99a4a5;
+}
+
+.bg-fourth {
+  background-color: #519cd7;
+}
+
+.text-fourth {
+  color: #519cd7;
+}
+
+.text-third {
+  color: #99a4a5;
+}
+
+.ad .body {
+  max-width: 400px;
+}
+
+.ad .logo img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 767px) {
   .hero-form {
     width: auto;
     padding: 20px 20px;
@@ -74,6 +108,10 @@ ul li a {
   .application-steps .steps {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
+  }
+
+  .sm-center {
+    text-align: center;
   }
 }
 
