@@ -252,6 +252,19 @@ footer .navigation .logo .home-logo {
   font-size: 20px;
 }
 
+main .carousel {
+  height: auto;
+  width: 100%;
+  background-color: #d1d1d196;
+}
+
+main .carousel img {
+  height: 80vh;
+  max-width: 1200px;
+  object-fit: cover;
+  object-position: center;
+}
+
 @media screen and (max-width: 1024px) {
   .keepintouch > div {
     width: 50%;
@@ -272,6 +285,10 @@ footer .navigation .logo .home-logo {
 
   .keepintouch {
     justify-content: center;
+  }
+
+  main .carousel img {
+    height: 70vh;
   }
 }
 
@@ -299,6 +316,10 @@ footer .navigation .logo .home-logo {
 
   .keepintouch {
     justify-content: center;
+  }
+
+  main .carousel img {
+    height: 50vh;
   }
 }
 
