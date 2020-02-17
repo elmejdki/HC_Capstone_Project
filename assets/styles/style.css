@@ -265,6 +265,32 @@ main .carousel img {
   object-position: center;
 }
 
+.details {
+  margin: 30px;
+  padding: 30px;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.294);
+}
+
+.details .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 50px;
+  grid-gap: 10px;
+}
+
+.details .grid > div {
+  border: 1px solid rgba(0, 0, 0, 0.411);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+main .description {
+  padding: 20px 50px;
+  font-size: 20px;
+  text-align: justify;
+}
+
 @media screen and (max-width: 1024px) {
   .keepintouch > div {
     width: 50%;
@@ -289,6 +315,10 @@ main .carousel img {
 
   main .carousel img {
     height: 70vh;
+  }
+
+  .details .grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -320,6 +350,14 @@ main .carousel img {
 
   main .carousel img {
     height: 50vh;
+  }
+
+  .details .grid {
+    grid-template-columns: 1fr;
+  }
+
+  main .description {
+    padding: 20px 30px;
   }
 }
 
