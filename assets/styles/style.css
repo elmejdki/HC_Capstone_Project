@@ -55,6 +55,13 @@ main {
   padding: 30px 40px;
 }
 
+#search-field:focus {
+  border: 1px solid #d35649;
+  outline-style: solid;
+  outline-color: #d35649;
+  outline-width: medium;
+}
+
 ul li a {
   font-size: 12px;
 }
