@@ -107,6 +107,104 @@ ul li a {
   border-radius: 50%;
 }
 
+footer {
+  background-color: #000;
+  color: white;
+}
+
+footer .navigation {
+  width: 90%;
+  display: flex;
+  padding: 50px 0;
+  position: relative;
+}
+
+footer .navigation ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  width: 50%;
+  padding: 5px 0;
+  border-top: 1px solid rgba(175, 175, 175, 0.479);
+  border-bottom: 1px solid rgba(175, 175, 175, 0.479);
+}
+
+footer .navigation ul:first-child {
+  padding-right: 50px;
+}
+
+footer .navigation ul:last-child {
+  padding-left: 50px;
+}
+
+footer .navigation ul li {
+  flex-grow: 1;
+  text-align: center;
+  cursor: pointer;
+  min-width: 100px;
+}
+
+footer .navigation ul li:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+footer .navigation .logo {
+  position: absolute;
+  padding: 30px;
+  width: 90px;
+  height: 90px;
+  left: calc(50% - 45px);
+  top: 25px;
+  background-color: black;
+  border: 1px solid rgba(175, 175, 175, 0.479);
+  border-radius: 50%;
+}
+
+footer .navigation .logo .home-logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.keepintouch {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.keepintouch > div {
+  padding: 10px 0;
+  width: calc(100% / 3);
+}
+
+.keepintouch form input {
+  background-color: rgba(95, 158, 160, 0);
+  border: 1px solid rgba(128, 128, 128, 0.308);
+}
+
+.bottom-footer {
+  background-color: #1f1f1f;
+  padding: 20px 10px;
+}
+
+.bottom-footer .fab:hover {
+  cursor: pointer;
+  color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  .keepintouch > div {
+    width: 50%;
+  }
+
+  .keepintouch {
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .hero-form {
     width: auto;
@@ -120,6 +218,14 @@ ul li a {
 
   .sm-center {
     text-align: center;
+  }
+
+  .keepintouch > div {
+    width: 100%;
+  }
+
+  .keepintouch {
+    justify-content: center;
   }
 }
 
