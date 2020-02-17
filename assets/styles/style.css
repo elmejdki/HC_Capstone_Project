@@ -255,7 +255,22 @@ footer .navigation .logo .home-logo {
 main .carousel {
   height: auto;
   width: 100%;
-  background-color: #d1d1d196;
+}
+
+main .carousel .carousel-control-prev-icon {
+  background: url("../images/prev-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 20px;
+  height: 20px;
+}
+
+main .carousel .carousel-control-next-icon {
+  background: url("../images/next-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 20px;
+  height: 20px;
 }
 
 main .carousel img {
@@ -289,6 +304,21 @@ main .description {
   padding: 20px 50px;
   font-size: 20px;
   text-align: justify;
+}
+
+main .more-details {
+  display: block;
+  background-color: rgba(238, 238, 238, 0.493);
+  color: black;
+  padding: 20px 30px;
+  width: calc(100% - 40px);
+  font-size: 25px;
+  margin: 10px 20px;
+  letter-spacing: 15px;
+}
+
+main .more-details .fas {
+  padding-right: 10px;
 }
 
 @media screen and (max-width: 1024px) {
