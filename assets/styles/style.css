@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .bg-main-color {
   background-color: #d35649;
 }
@@ -200,6 +204,11 @@ footer .navigation .logo .home-logo {
 .bottom-footer .fab:hover {
   cursor: pointer;
   color: white;
+}
+
+.filter {
+  background-color: #eee;
+  padding: 90px 10px;
 }
 
 @media screen and (max-width: 1024px) {
