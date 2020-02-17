@@ -7,11 +7,15 @@
 }
 
 .max-3k {
-  max-width: 1300px;
+  max-width: 1600px;
 }
 
 body {
   font-family: 'Quicksand', sans-serif;
+}
+
+header {
+  box-shadow: 0 3px 10px 1px;
 }
 
 .logo {
@@ -30,6 +34,10 @@ body {
   background-size: cover;
   width: 30px;
   height: 30px;
+}
+
+main {
+  margin-top: 50px;
 }
 
 .hero {
@@ -116,6 +124,10 @@ ul li a {
 }
 
 @media screen and (max-width: 575px) {
+  main {
+    margin-top: 95px;
+  }
+
   .hero-form input {
     height: 35px;
     padding: 10px;
