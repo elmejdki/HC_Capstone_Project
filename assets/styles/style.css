@@ -321,6 +321,13 @@ main .more-details .fas {
   padding-right: 10px;
 }
 
+#map {
+  height: 80vh;
+  width: calc(90% - 40px);
+  margin: 30px auto;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.363);
+}
+
 @media screen and (max-width: 1024px) {
   .keepintouch > div {
     width: 50%;
@@ -349,6 +356,10 @@ main .more-details .fas {
 
   .details .grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  #map {
+    height: 60vh;
   }
 }
 
@@ -388,6 +399,10 @@ main .more-details .fas {
 
   main .description {
     padding: 20px 30px;
+  }
+
+  #map {
+    height: 50vh;
   }
 }
 
