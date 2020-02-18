@@ -1,74 +1,78 @@
-# Project Name
+# Dari, Find your own house from all over the world.
 
-> One paragraph statement about the project.
+> This website is about allowing users to find rents from all over the world for now it is just static but maybe in the future I will make it dynamic who knows. This project consists of one search Page, a search result Page, and details Page. I developed all of them on my own using HTML, CSS and bootstrap. The site is responsive to laptop, tablet and mobile resolutions. I added an small bit of JS to import a Google maps API on the details page to show where the location of the house to the users.
 
-![screenshot](./app_screenshot.png)
+# Project Presentation Video
+<!-- [![Video Screeshot](assets/project_presentation_video.png)](https://www.loom.com/share/2963a81315fd44e18bc2d9e4b73e6b8e) -->
 
-Additional description about the project and its features.
+## Search Page
+# Latop View
+![screenshot](assets/laptop_view.png)
+
+# Tablet View
+![screenshot](assets/tablet_view.png)
+
+# Mobile View
+![screenshot](assets/mobile_view.png)
+
+## Search Result Page
+# Latop View
+![screenshot](assets/rs_laptop_view.png)
+
+# Tablet View
+![screenshot](assets/rs_tablet_view.png)
+
+# Mobile View
+![screenshot](assets/rs_mobile_view.png)
+
+## Details Page
+# Latop View
+![screenshot](assets/details_laptop_view.png)
+
+# Tablet View
+![screenshot](assets/details_tablet_view.png)
+
+# Mobile View
+![screenshot](assets/details_mobile_view.png)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML
+- CSS
+- JS
+- Flexbox
+- Gid system
+- bootstrap
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+[Live Demo Link](https://raw.githack.com/elmejdki/HC_Capstone_Project/create_darieverywhere_website/index.html)
 
 ### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+To make this repository working in your local machine you need only a browser.
 
 ## Authors
 
-👤 **Author1**
+👤 **Zakariae El Mejdki**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@elmejdki](https://github.com/elmejdki)
+- Twitter: [@zakariae_elmejdki](https://twitter.com/0ca7848f87ab470)
+- Linkedin: [zakariae elmejdki](https://www.linkedin.com/in/zakariae-el-mejdki-644898139/)
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues and feature requests are welcome.
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/elmejdki/HC_Capstone_Project/issues).
+
+## Credits
+
+Thanks to [Mathew Njuguna and others on Behance](https://www.behance.net/mathewnjuguna) for her awesome design work. I based my work on  [this](https://www.behance.net/gallery/25563385/PatashuleKE) design.
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
+## License
 
 This project is [MIT](lic.url) licensed.
