@@ -26,6 +26,18 @@ header {
   box-shadow: 0 3px 10px 1px;
 }
 
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  list-style: none;
+}
+
 .logo {
   font-size: 30px;
 }
@@ -403,6 +415,10 @@ main .more-details .fas {
 
   #map {
     height: 50vh;
+  }
+
+  header nav {
+    display: block;
   }
 }
 
