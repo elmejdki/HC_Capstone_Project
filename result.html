@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700|Quicksand:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/styles/style.css">  
     <script src="https://kit.fontawesome.com/f1e636495c.js" crossorigin="anonymous"></script>
@@ -48,24 +49,24 @@
         <h3 class="text-center p-3 font-weight-bold text-secondary">Filter by Country, City, Chick-In and Checkout:</h3>
         <form action="#" method="get" class="d-flex flex-column flex-lg-row flex-lg-nowrap flex-wrap justify-content-center align-items-lg-end px-3">
           <div class="mb-0 mt-2 mx-1">
-            <label class="font-weight-bold" for="example">COUNTRY:</label>
-            <input type="text" class="form-control">
+            <label class="font-weight-bold" for="country">COUNTRY:</label>
+            <input id="country" type="text" class="form-control">
           </div>
           <div class="mb-0 mt-2 mx-1">
-            <label class="font-weight-bold" for="example">CITY:</label>
-            <input type="text" class="form-control">
+            <label class="font-weight-bold" for="city">CITY:</label>
+            <input id="city" type="text" class="form-control">
           </div>
           <div class="mb-0 mt-2 mx-1">
-            <label class="font-weight-bold" for="example">CHECK-IN:</label>
-            <input type="date" class="form-control">
+            <label class="font-weight-bold" for="checkin">CHECK-IN:</label>
+            <input id="checkin" type="date" class="form-control">
           </div>
           <div class="mb-0 mt-2 mx-1">
-            <label class="font-weight-bold" for="example">CHECKOUT:</label>
-            <input type="date" class="form-control">
+            <label class="font-weight-bold" for="checkout">CHECKOUT:</label>
+            <input id="checkout" type="date" class="form-control">
           </div>
           <div class="mb-0 mt-2 mx-1">
-            <label class="font-weight-bold" for="example">ADULTS:</label>
-            <select name="adults" class="form-control">
+            <label class="font-weight-bold" for="adults">ADULTS:</label>
+            <select id="adults" name="adults" class="form-control">
               <option value="1">1 adult</option>
               <option value="2">2 adults</option>
               <option value="3">3 adults</option>
@@ -76,8 +77,8 @@
             </select>
           </div>
           <div class="mb-0 mt-2 mx-1">
-            <label class="font-weight-bold" for="example">CHILDREN:</label>
-            <select name="adults" class="form-control">
+            <label class="font-weight-bold" for="childrens">CHILDREN:</label>
+            <select id="childrens" name="childrens" class="form-control">
               <option value="0">0 children</option>
               <option value="1">1 child</option>
               <option value="2">2 children</option>
