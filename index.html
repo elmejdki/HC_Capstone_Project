@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles/style.css">  
+    <script src="https://kit.fontawesome.com/f1e636495c.js" crossorigin="anonymous"></script>
+    <title>Dari</title>
+  </head>
+
+  <body>
+    <header class="bg-main-color fixed-top max-3k mx-auto">
+      <nav class="pt-1 px-5">
+        <a href="./index.html" class=" text-decoration-none pb-1 justify-content-center d-flex align-items-center logo text-white font-weight-bold text-uppercase special-font">
+          <span class="home-logo"></span> <span class="pl-2 my-0">Dari</span>
+        </a>
+        <ul class="pb-3 m-0 text-uppercase font-weight-bold">
+          <li class="px-2">
+            <a class="text-decoration-none text-white" href="./result.html">
+              <i class="fas fa-search pr-1"></i> <span class="d-lg-inline-block d-none">home's</span>
+            </a>
+          </li>
+          <li class="px-2">
+            <a class="text-decoration-none text-white" href="#">
+              <i class="fas fa-user pr-1"></i> <span class="d-lg-inline-block d-none">about</span>
+            </a>
+          </li>
+          <li class="px-2">
+            <a class="text-decoration-none text-white" href="#">
+              <i class="fas fa-rss pr-1"></i> <span class="d-lg-inline-block d-none">blog</span>
+            </a>
+          </li>
+          <li class="px-2">
+            <a class="text-decoration-none text-white" href="#">
+              <i class="fas fa-bars pr-1"></i> <span class="d-lg-inline-block d-none">more...</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="max-3k mx-auto">
+      <section class="hero d-flex flex-column justify-content-center align-items-center">
+        <h1 class="hero-title text-center font-weight-bold text-white pb-4 px-3">DARI... your getway to beautifull houses all over the world</h1>
+        <form class="hero-form rounded mx-auto" action="#" method="get">
+          <span class="font-weight-bold text-uppercase">
+            search by key word:
+          </span>
+          <div class="d-sm-flex">
+            <input type="text" id="search-field" class="d-block px-2 flex-grow-1 border-0">
+            <button  onclick="location.href = './result.html';" class="d-block flex-shrink-0 btn bg-main-color text-white font-weight-bold rounded-0 px-4">search</button>
+          </div>
+        </form>
+        <div class="mx-auto pt-4">
+          <a href="#steps" class="btn bg-white">how it works</a>
+        </div>
+      </section>
+
+      <section id="steps" class="application-steps m-5">
+        <h3 class="text-main font-weight-bold text-uppercase text-center mb-4">
+          Dari works in four simple steps
+        </h3>
+        <div class="steps">
+          <div class="step mx-auto text-center">
+            <div class="logo m-3">
+              <img src="assets/images/search.png" alt="search logo" />
+            </div>
+            <div class="title font-weight-bold my-3">
+              1- SEARCH:
+            </div>
+            <div class="body text-secondary">
+              It's simple. On Dari homepage. enter the name of a country you are interested in maybe to visit or to buy a house from, and then click on search. Alternatively, click on the search link on the top menu to view the list of all the houses that are near to you.
+            </div>
+          </div>
+          <div class="step mx-auto text-center">
+            <div class="logo m-3">
+              <img src="assets/images/locate.png" alt="locate logo" />
+            </div>
+            <div class="title font-weight-bold my-3">
+              1- LOCATE:
+            </div>
+            <div class="body text-secondary">
+              Get to see where the house is located by click on the house profile. It's even more exciting. You can get directions from anywhere in the country.
+            </div>
+          </div>
+          <div class="step mx-auto text-center">
+            <div class="logo m-3">
+              <img src="assets/images/apply.png" alt="apply logo" />
+            </div>
+            <div class="title font-weight-bold my-3">
+              1- APPLY:
+            </div>
+            <div class="body text-secondary">
+              Apply for a meeting with the owner locally or remotely to know more about the house that you have liked. Click on the APPLY button to get the application form. We also follow up on the application to make sure you get a reply on time.
+            </div>
+          </div>
+          <div class="step mx-auto text-center">
+            <div class="logo m-3">
+              <img src="assets/images/relax.png" alt="relax logo" />
+            </div>
+            <div class="title font-weight-bold my-3">
+              1- relax:
+            </div>
+            <div class="body text-secondary">
+              Once you have met with the owner and both of you agreed on the rent payments. You can relax and drink a cup of coffee maybe.
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="ads text-white">
+        <div class="ad bg-second d-flex flex-md-row-reverse flex-column align-items-center justify-content-between px-5">
+          <div class="logo my-4 mx-3">
+            <img src="assets/images/everywhere.jpg" alt="everywhere logo">
+          </div>
+          <div class="body d-flex py-4 flex-column justify-content-center align-items-md-start align-items-center sm-center">
+            <h5 class="title font-weight-bold">Over 100,000 owners registred with us</h5>
+            <p>Find a rent by using our filtered search engine</p>
+            <a href="./result.html" class="text-main btn bg-white">Find a rent</a>
+          </div>
+        </div>
+
+        <div class="ad bg-third d-flex flex-md-row-reverse flex-column align-items-center justify-content-between px-5">
+          <div class="logo my-4 mx-3">
+            <img src="assets/images/traffic.jpg" alt="trafiic pic">
+          </div>
+          <div class="body d-flex py-4 flex-column justify-content-center align-items-md-start align-items-center sm-center">
+            <h5 class="title font-weight-bold">No Need to look up for renters by yourself our website will make that easier for you</h5>
+            <p>Just press or clikc on the search button and You're all set</p>
+            <a href="./result.html" class="text-third btn bg-white">Find a rent near you</a>
+          </div>
+        </div>
+
+        <div class="ad bg-fourth d-flex flex-md-row-reverse flex-column align-items-center justify-content-between px-5">
+          <div class="logo my-4 mx-3">
+            <img src="assets/images/just_us.png" alt="Dari website">
+          </div>
+          <div class="body d-flex py-4 flex-column justify-content-center align-items-md-start align-items-center sm-center">
+            <h5 class="title font-weight-bold">Anytime Anywhere Any way!</h5>
+            <p>Very convenient platforms that cut cross any device including our mobile ready web app and our mobile app coming soon to your app store</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="max-3k mx-auto">
+      <div class="navigation mx-auto">
+        <ul>
+          <li>HOME</li>
+          <li>SEARCH</li>
+          <li>ABOUT US</li>
+          <li>ADVERTISE</li>
+        </ul>
+        <div class="logo">
+          <div class="home-logo"></div>
+        </div>
+        <ul>
+          <li>FACEBOOK</li>
+          <li>TWITTER</li>
+          <li>BLOG</li>
+          <li>GOOGLE +</li>
+        </ul>
+      </div>
+
+      <div class="keepintouch">
+        <div class="subscribe text-center px-3">
+          <h5 class="font-weight-bold text-uppercase">subscribe</h5>
+          <form class="d-flex" action="#" method="get">
+            <input class="flex-grow-1 flex-shrink-1 px-3 text-white" type="text" name="email" placeholder="you@example.com">
+            <button class="btn btn-secondary">send</button>
+          </form>
+        </div>
+        <div class="contact text-center px-3">
+          <h5 class="font-weight-bold">CONTACT</h5>
+          <p class="text-secondary m-0">have a question or submission</p>
+          <p class="text-main">info@dari.com</p>
+        </div>
+        <div class="about text-center px-3">
+          <h5 class="font-weight-bold">ABOUT</h5>
+          <p class="text-secondary">Dari is an online platform that assists people form all over the world to find suitable and beautifull houses to rent by simply searching by country, city, renter name, ect <span class="text-main">Learn more...</span></p>
+        </div>
+      </div>
+      <div class="bottom-footer d-flex align-items-center flex-wrap justify-content-between">
+        <ul class="social-media text-secondary d-flex list-unstyled m-0 py-2">
+          <li class="px-2"><i class="fab fa-facebook-f"></i></li>
+          <li class="px-2"><i class="fab fa-twitter"></i></li>
+          <li class="px-2"><i class="fab fa-wordpress"></i></li>
+          <li class="px-2"><i class="fab fa-google-plus-g"></i></li>
+          <li class="px-2"><i class="fab fa-instagram"></i></li>
+        </ul>
+        <p class="text-secondary px-2 m-0">© 2020 Dari, Inc. All rights reserved, POWER BY LOVE AND AWESOMENESS.</p>
+      </div>
+    </footer>
+  </body>
+
+</html>
