@@ -2,38 +2,17 @@
 
 > This website is about allowing users to find rents from all over the world, for now, it is just static but maybe in the future, I will make it dynamic who knows. This project consists of one search Page, a search result Page, and a details Page. I developed all of them on my own using HTML, CSS, and bootstrap. The site is responsive to laptop, tablet, and mobile resolutions. I added a small bit of JS to import a Google maps API on the details page to show where the location of the house to the users.
 
+# Project Preview
+
+![screenshot](./assets/screenshot.png)
+
+
+
 # Project Presentation Video
+
 [![Video Screeshot](assets/capstone_video.png)](https://www.loom.com/share/beee0f6800164db99338b8dbf696f0fc)
 
-## Search Page
-# Latop View
-![screenshot](assets/laptop_view.png)
 
-# Tablet View
-![screenshot](assets/tablet_view.png)
-
-# Mobile View
-![screenshot](assets/mobile_view.png)
-
-## Search Result Page
-# Latop View
-![screenshot](assets/rs_laptop_view.png)
-
-# Tablet View
-![screenshot](assets/rs_tablet_view.png)
-
-# Mobile View
-![screenshot](assets/rs_mobile_view.png)
-
-## Details Page
-# Latop View
-![screenshot](assets/details_laptop_view.png)
-
-# Tablet View
-![screenshot](assets/details_tablet_view.png)
-
-# Mobile View
-![screenshot](assets/details_mobile_view.png)
 
 ## Built With
 
@@ -56,8 +35,8 @@ To make this repository working in your local machine you need only a browser.
 👤 **Zakariae El Mejdki**
 
 - Github: [@elmejdki](https://github.com/elmejdki)
-- Twitter: [@zakariae_elmejdki](https://twitter.com/0ca7848f87ab470)
-- Linkedin: [zakariae elmejdki](https://www.linkedin.com/in/zakariae-el-mejdki-644898139/)
+- Twitter: [@zakariae_elmejdki](https://twitter.com/zakariaemejdki)
+- Linkedin: [zakariae elmejdki](https://www.linkedin.com/in/zakariaeelmejdki/)
 
 ## 🤝 Contributing
 
